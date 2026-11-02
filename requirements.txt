@@ -1,0 +1,17 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+google-genai>=1.0
+langgraph>=0.2
+pymilvus>=2.5,<3
+pymupdf>=1.24,<2
+python-multipart>=0.0.9
+pydantic>=2.8
+pydantic-settings>=2.4
+python-dotenv>=1.0
+streamlit>=1.38
+requests>=2.32
+pytest>=8.0
+# Optional OCR adapter: install Tesseract system package plus pytesseract and Pillow.
+# pytesseract>=0.3.13
+# Pillow>=10.0
+qdrant-client>=1.12,<2
